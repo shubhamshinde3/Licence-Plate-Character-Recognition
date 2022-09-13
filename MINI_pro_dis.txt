@@ -1,0 +1,36 @@
+2Automated License Plate character recognition using KNN & CNN (ALPCR) is the method which will recognise the license plate accurately.
+SB
+In this , Image preprocessing is the initial step, in which we perform 
+1. extrating the image 
+2. resizing 
+3. converting img to gray 
+4. blurring img 
+5. thershing the image 
+6. detecting and drawing contours
+all these things removes noise from image 
+ 
+Further we perform character recognition 
+Character recognition is the final stage in vehicle license plate detection and recognition, where it reads the individual characters and numbers.
+This process is consist of two parts
+1) OCR Segmentation
+Single elements on the license plate should be classified and examined.
+2) OCR Recognition
+Takes segmented charaters/ numbers from license plate and try to match it with training set with high accuracy using knn
+
+The license numbers were recognized from the extracted license plate with the help of character segmentation approach,
+further it is learned and recognized accurately by making use of KNN classifier.
+
+Purpose:
+The ultimate solution of this project is to detect and recognize the alphanumeric characters using OCR(Optimal character recognition)
+and print the expected the characters & numbers of two wheeler License Plate Number.
+
+problems / how ur pro is diff:
+Most of the developed techniques work under specific conditions such as image capturing angle, illumination, stationary background and use diff algo
+which provides less accuracy
+All the given LPR techniques vary on the basis of processing time, required computational power and accuracy. 
+
+The k-nearest neighbours algorithm (k-NN) is considered as a non-parametric method in the pattern recognition, which is utilized for classification and regression.
+
+reference:-
+The Journal of Lanzhou industry college, International Journal of Signal Processing, Image Processing and Pattern Recognition, International Journal of Multimedia 
+and Ubiquitous Engineering. 
